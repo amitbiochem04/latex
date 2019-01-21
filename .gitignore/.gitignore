@@ -1,0 +1,3 @@
+pandoc frontiers.tex -o my-document.docx
+pandoc --bibliography sample.bib --csl=frontiersinSCNS_ENG_HUMS -o OUT.docx frontiers.tex
+pandoc -s frontiers.tex --bibliography=sample.bib -o foo.docx
